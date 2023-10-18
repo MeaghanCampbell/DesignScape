@@ -1,5 +1,6 @@
 <script setup>
   import Card from './views/Card.vue'
+  import ScrollContainer from './views/ScrollContainer.vue'
 </script>
 
 <template>
@@ -9,5 +10,6 @@
           <Card />
           <Card />
       </div>
+      <ScrollContainer />
     </section>
 </template>
