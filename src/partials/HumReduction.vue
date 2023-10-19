@@ -1,5 +1,7 @@
 <template>
     <section class="text-white">
-        text    
+        <div>
+        text
+        </div>  
     </section>
 </template>

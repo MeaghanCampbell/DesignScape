@@ -5,8 +5,8 @@
 <template>
   <div class="flex items-center justify-center">
     <SpotlightCard
-      from="#1cd1c6"
-      via="#407cff"
+      from="#f0abfc"
+      via="#7dd3fc"
       size="300"
       class="w-full max-w-2xl rounded-[--radius] bg-white/10 p-8 [--radius:theme(borderRadius.2xl)]">
       <div class="absolute inset-px rounded-[calc(var(--radius)-1px)] bg-gradient-to-br from-zinc-800 to-zinc-700"></div>

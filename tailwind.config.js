@@ -8,5 +8,10 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  extend: {
+    animation: {
+      spin: "spin 3s linear infinite",
+    },
+  }
 }
 
