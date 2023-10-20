@@ -10,7 +10,7 @@ const items = [NoiseReduction, LoudnessCorrection, SpeechIsolation, HumReduction
 </script>
 
 <template>
-    <div class="py-14 sm:py-20 max-w-6xl mx-auto">
+    <div class="py-14 sm:py-28 px-4 sm:px-8 max-w-6xl mx-auto">
         <ScrollReveal v-slot="{ isActive }" :offset="200" class="[--duration:500ms]">
 
             <div
@@ -36,7 +36,7 @@ const items = [NoiseReduction, LoudnessCorrection, SpeechIsolation, HumReduction
             </h3>
 
             <div class="mt-6 transition-[transform,opacity] duration-[--duration] md:mt-12">
-                <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4 md:gap-y-8">
+                <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
                     <component
                       :is="item"
                       v-for="(item, index) in items"
