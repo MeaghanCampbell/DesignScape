@@ -1,12 +1,17 @@
 <script setup>
-import ScrollReveal from "@/components/ScrollReveal.vue"
+    import ScrollReveal from "@/components/ScrollReveal.vue"
+    import Card from "@/components/Card.vue"
 
-import HumReduction from "@/partials/HumReduction.vue"
-import LoudnessCorrection from "@/partials/LoudnessCorrection.vue"
-import NoiseReduction from "@/partials/NoiseReduction.vue"
-import SpeechIsolation from "@/partials/SpeechIsolation.vue"
+    import { ref } from 'vue'
 
-const items = [NoiseReduction, LoudnessCorrection, SpeechIsolation, HumReduction]
+    const cards = ref([
+        { header: 'Header 1', body: 'Body 1' },
+        { header: 'Header 2', body: 'Body 2' },
+        { header: 'Header 3', body: 'Body 3' },
+        { header: 'Header 4', body: 'Body 4' },
+        { header: 'Header 5', body: 'Body 5' },
+        { header: 'Header 6', body: 'Body 6' },
+    ])
 </script>
 
 <template>
@@ -29,7 +34,7 @@ const items = [NoiseReduction, LoudnessCorrection, SpeechIsolation, HumReduction
 
             <h3
               :class="{ 'translate-y-8 opacity-0': !isActive }"
-              class="mt-4 text-center text-white/75 transition-[transform,opacity] duration-[--duration]">
+              class="mt-4 text-center text-white/75 transition-[transform,opacity] duration-[--duration] text-lg">
               Drop your file onto FlowTone and we'll enhance it.
               <br class="hidden md:block" />
               No need to separate audio from video.
@@ -37,16 +42,18 @@ const items = [NoiseReduction, LoudnessCorrection, SpeechIsolation, HumReduction
 
             <div class="mt-6 transition-[transform,opacity] duration-[--duration] md:mt-12">
                 <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
-                    <component
-                      :is="item"
-                      v-for="(item, index) in items"
-                      :key="index"
-                      :style="{ '--delay': `${(index + 1) * 250}ms` }"
-                      :class="{
-                        'translate-y-8 opacity-0': !isActive,
-                        'delay-[--delay]': isActive,
-                      }"
-                      class="transition-[transform,opacity] duration-[--duration]" />
+                    <Card
+                        v-for="(card, index) in cards"
+                        :key="index"
+                        :header="card.header"
+                        :body="card.body"
+                        :style="{ '--delay': `${(index + 1) * 250}ms` }"
+                        :class="{
+                          'translate-y-8 opacity-0': !isActive,
+                          'delay-[--delay]': isActive,
+                        }"
+                        class="transition-[transform,opacity] duration-[--duration]" 
+                    />
                 </div>
             </div>
 

@@ -1,9 +1,9 @@
 <script setup>
-import MotionTextTemplate from '../components/MotionTextTemplate.vue'
-
+    import MotionTextTemplate from '@/components/motiontexttemplate.vue'
 </script>
+
 <template>
-    <div class="bg-gradient-to-br from-sky-300/20 to-fuchsia-300/30">
+    <div class="bg-gradient-to-br from-sky-300/20 to-fuchsia-300/20">
         <section class="max-w-6xl mx-auto">
             <div class="relative bg-white/2.5 py-14 px-4 md:rounded-3xl lg:rounded-[3rem] sm:px-8 sm:py-28">
                 <div class="absolute inset-x-12 top-0 h-px bg-gradient-to-r from-transparent via-white/30 to-transparent"></div>
