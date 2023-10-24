@@ -41,9 +41,9 @@
                     <div class="mx-auto max-w-2xl text-center py-14 sm:py-28 px-4 sm:px-8">
                         <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">Boost your productivity.<br>Start using our app today.</h2>
                         <p class="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-300">Incididunt sint fugiat pariatur cupidatat consectetur sit cillum anim id veniam aliqua proident excepteur commodo do ea.</p>
-                        <div class="mt-10 flex items-center justify-center gap-x-6">
-                            <Button />
-                            <a href="#" class="font-semibold leading-6 text-sky-300 text-lg">Learn more <span aria-hidden="true">→</span></a>
+                        <div class="mt-10 flex items-center justify-center gap-x-6 z-40">
+                            <Button class="z-40"/>
+                            <a href="#" class="z-40 font-semibold leading-6 text-sky-300 text-lg">Learn more <span aria-hidden="true">→</span></a>
                         </div>
                     </div>
                 
