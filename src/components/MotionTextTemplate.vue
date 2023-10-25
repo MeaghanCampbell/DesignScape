@@ -13,7 +13,7 @@ const text = "How you design and build matters."
       mode="middle"
       class="mx-auto flex max-w-2xl items-center justify-center">
       <MotionText v-slot="{ tokens }" :body="text" mode="symbol">
-        <h1 class="text-center text-3xl sm:text-4xl font-bold text-white">
+        <h1 class="text-center text-xl sm:text-3xl md:text-4xl font-bold text-white">
           <span
             v-for="(token, index) in tokens"
             :key="index"

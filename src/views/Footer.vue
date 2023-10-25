@@ -41,7 +41,7 @@
                         </svg>
                     </a>
                 </div>
-                <p class="mt-10 mb-10 sm:mb-0 text-center leading-5 text-white">&copy; 2023 Your Company, Inc. All rights reserved.</p>
+                <p class="mt-10 mb-10 sm:mb-0 text-center leading-5 text-white">&copy; 2023 DesignScape Inc. All rights reserved.</p>
             </div>
 
         </div>

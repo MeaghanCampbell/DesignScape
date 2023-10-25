@@ -8,7 +8,7 @@ import SpotlightButton from "@/components/SpotlightButton.vue"
       <div class="relative inline-flex items-center gap-2">
         <span
           class="mt-px bg-gradient-to-b from-sky-300/50 to-sky-300 bg-clip-text font-mona text-lg font-medium text-transparent transition-all duration-200 [font-variation-settings:'wdth'_100] group-hover:font-extrabold group-hover:[font-variation-settings:'wdth'_125]">
-          Buy now
+          Join now
         </span>
 
         <div class="h-5 w-px bg-white/10"></div>

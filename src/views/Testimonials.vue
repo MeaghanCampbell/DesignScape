@@ -1,33 +1,40 @@
 
 <script setup>
+    import ethan from '../assets/headshots/ethan.png'
+    import isabella from '../assets/headshots/isabella.png'
+    import sam from '../assets/headshots/sam.png'
+    import lily from '../assets/headshots/lily.png'
+    import ben from '../assets/headshots/ben.png'
     const items = [
     {
-        name: "Sophia Martinez",
-        title: "Lead designer, Avalon",
-        image:
-        "https://images.generated.photos/TdA_3xKb49DtgqfPPu5REnQFiALErCu6i3M2I_1AqIA/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAwNTU5LmpwZw.jpg",
-        body: "I've been in the design game for a while now and this kit is one of the best. It's made me fall in love with designing all over again. It's just brilliant.",
+        name: "Lily Thompson",
+        title: "Lead UX Designer, MoTech",
+        image: lily,
+        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     },
     {
-        name: "Caroline Lee",
-        title: "Senior Graphic Designer, Echo",
-        image:
-        "https://images.generated.photos/mp3gkB9z2wwhyySWzQJMegNbvvLV6HbKQX1_h6BEYAc/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAwOTI5LmpwZw.jpg",
-        body: "I'm a newbie designer and this kit is just perfect. I've learnt so much and my work looks amazing now. A big thumbs up!",
+        name: "Isabella Kim",
+        title: "CTO, Art",
+        image: isabella,
+        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     },
     {
-        name: "Tyler Otwell",
-        title: "CTO, Apple",
-        image:
-        "https://images.generated.photos/vOkveSlBohR880A8z67aLHImhPr7UHdnXg06pifYvZ4/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyNjg4LmpwZw.jpg",
-        body: "This design kit is a game changer! My designs look better and I get things done faster. Totally recommending it to my mates!",
+        name: "Ethan Walker",
+        title: "Creative Director, TechVerse",
+        image: ethan,
+        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     },
     {
-        name: "Jake Harris",
-        title: "Thompson Creative",
-        image:
-        "https://images.generated.photos/d_r3VzW3lO5ZsdaHhoVX7msWku7YIrqP4Qn1yozJU54/rs:fit:256:256/czM6Ly9pY29uczgu/Z3Bob3Rvcy1wcm9k/LnBob3Rvcy92M18w/MDAyMTQ4LmpwZw.jpg",
-        body: "I'm a newbie designer and this kit is just perfect. I've learnt so much and my work looks amazing now. A big thumbs up!",
+        name: "Benjamin Patel",
+        title: "CEO, Patel Creative",
+        image: ben,
+        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
+    },
+    {
+        name: "Samuel Garcia",
+        title: "Front-End Developer, Apple",
+        image: sam,
+        body: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.",
     },
     ]
 </script>

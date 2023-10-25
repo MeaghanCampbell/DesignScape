@@ -8,22 +8,22 @@
             :class="{ 'translate-y-8 opacity-0': !isActive }"
             class="flex justify-center transition-[transform,opacity] duration-[--duration]">
             <div class="rounded-full border border-fuchsia-400 px-4 py-0.5 text-sm text-white">
-            Features
+            How It Works
             </div>
         </div>
 
         <h2
             :class="{ 'translate-y-8 opacity-0': !isActive }"
             class="text-4xl font-bold tracking-tight text-white sm:text-6xl mt-6 text-center transition-[transform,opacity] duration-[--duration]">
-            FlowTone does it all
+            Simple, Intuitive, Effective
         </h2>
 
         <h3
             :class="{ 'translate-y-8 opacity-0': !isActive }"
             class="mt-4 text-center text-white/75 transition-[transform,opacity] duration-[--duration] text-lg">
-            Drop your file onto FlowTone and we'll enhance it.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit
             <br class="hidden md:block" />
-            No need to separate audio from video.
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </h3>
 
         <div class="relative bg-black mt-14 transition-[transform,opacity] duration-[--duration]"
