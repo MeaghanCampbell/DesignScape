@@ -1,6 +1,10 @@
 # DesignScape
 
-Template for some cool designs
+A cool Design template created using Vue3, Tailwind, Animation & LunarUI Components for a made up company
+
+# Link
+
+Visit the live app [here](https://design-scape-red.vercel.app/).
 
 ## Project Setup
 
