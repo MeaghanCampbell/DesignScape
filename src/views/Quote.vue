@@ -1,5 +1,5 @@
 <script setup>
-    import MotionTextTemplate from '@/components/motiontexttemplate.vue'
+    import MotionTextTemplate from '@/components/MotionTextTemplate.vue'
 </script>
 
 <template>
